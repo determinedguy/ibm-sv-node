@@ -1,0 +1,1 @@
+var host='https://application-instance.178qirsixpn2.au-syd.codeengine.appdomain.cloud:-1';
