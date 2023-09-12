@@ -11,7 +11,7 @@ app.use(session({
 }));
 
 app.set('view engine', 'pug');
-app.set('views', path.join(__dirname, 'front-end'));
+app.set('views', path.join(__dirname, 'views'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
@@ -98,8 +98,9 @@ app.get('/logout', (req, res) => {
 	 })
 });
 
+let port = 3000;
 
-app.listen(3000, () => {
+app.listen(port, () => {
 	console.log('Server started');
-	console.log('Navigate to http://localhost:3000');
+	console.log(`Listening on port ${port}.`);
 });
