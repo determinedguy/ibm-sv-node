@@ -1,5 +1,5 @@
 {
-	"name": "login",
+	"name": "tutus",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -9,8 +9,12 @@
 		"watch": "nodemon --ignore public",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "Lachlan Ashcroft <lachlan.ashcroft@ibm.com>",
+	"author": "Muhammad Athallah <mhd.athallah@gmail.com>",
 	"contributors": [
+		{
+			"name": "Muhammad Athallah",
+			"email": "mhd.athallah@gmail.com"
+		},
 		{
 			"name": "Lachlan Ashcroft",
 			"email": "lachlan.ashcroft@ibm.com"
